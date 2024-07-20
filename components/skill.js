@@ -1,6 +1,5 @@
 import React from "react";
 import SectionContainer from "./section-container";
-import Image from "next/image";
 import Nti from "@/assets/national_telecommunication_institute_logo.jpeg";
 import Go from "@/assets/go_my_code_logo.jpeg";
 import SkillCard from "./skill-card";

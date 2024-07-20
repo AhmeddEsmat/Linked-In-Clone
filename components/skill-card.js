@@ -6,7 +6,7 @@ function SkillCard({ title, image, children }) {
     <div className="my-3">
       <h3 className="text-base font-medium">{title}</h3>
       <div className="flex items-end">
-        <Image src={image} className="w-6 mr-2" />
+        <Image src={image} className="w-6 mr-2" priority />
         <p>{children}</p>
       </div>
     </div>

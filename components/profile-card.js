@@ -15,12 +15,14 @@ function ProfileCard() {
         src={Cover}
         alt="Cover Photo"
         className="w-full relative xl:static rounded-t-lg"
+        priority
       />
       <div className="absolute -translate-x-[95%] translate-y-[57%] left-[22%]">
         <Image
           src={Profile}
           alt="Profile Photo"
           className="w-24 h-24 sm:w-32 sm:h-32 xl:w-40 xl:h-40 rounded-full border-white border-4"
+          priority
         />
       </div>
       <div className="pl-8 mt-14 md:mt-[5.2rem] lg:mt-14 flex justify-between">
@@ -44,11 +46,11 @@ function ProfileCard() {
         </div>
         <div className="hidden sm:inline text-[0.9rem] [&>*]:hover:cursor-pointer font-medium mr-16 [&>*]:py-2">
           <div className="flex items-center">
-            <Image src={Thndr} alt="Thndr Logo" className="w-10 pr-2" />
+            <Image src={Thndr} alt="Thndr Logo" className="w-10 pr-2" priority/>
             <p>Thndr</p>
           </div>
           <div className="flex">
-            <Image src={Uni} alt="Thndr Logo" className="w-10 pr-2" />
+            <Image src={Uni} alt="Thndr Logo" className="w-10 pr-2" priority/>
             <p>Ain Shams University</p>
           </div>
         </div>

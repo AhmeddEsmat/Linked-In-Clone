@@ -14,7 +14,12 @@ function ActivityPost({ period, image, count,comment, children }) {
         <span className="font-medium">Ahmed Esmat</span> posted this • {period}
       </p>
       <div className="my-2 flex">
-        <Image src={image} alt="Post Image" className="w-16 rounded-lg" />
+        <Image
+          src={image}
+          alt="Post Image"
+          className="w-16 rounded-lg"
+          priority
+        />
         <p className="px-4">{children}</p>
       </div>
       <div className="flex justify-between">
@@ -24,9 +29,7 @@ function ActivityPost({ period, image, count,comment, children }) {
           <FontAwesomeIcon icon={faThumbsUp} className="text-blue-700" />
           <p className="pl-1 text-gray-500 text-xs">{count}</p>
         </div>
-        <div className="text-gray-500 text-xs">
-            {comment} comments
-        </div>
+        <div className="text-gray-500 text-xs">{comment} comments</div>
       </div>
     </div>
   );

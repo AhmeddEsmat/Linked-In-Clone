@@ -19,7 +19,7 @@ function Navbar() {
   return (
     <header className="sticky top-0 z-50 px-4 sm:px-10 md:px-15 xl:px-60 py-2.5 h-10 md:h-10 xl:h-14 flex justify-between bg-white">
       <div className="flex justify-center items-center">
-        <Image src={Logo} alt="Linkedin Logo" className="w-8 h-8" />
+        <Image src={Logo} alt="Linkedin Logo" className="w-8 h-8" priority />
         <div className="relative ml-1.5">
           <input
             type="text"

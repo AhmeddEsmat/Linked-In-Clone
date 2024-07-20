@@ -18,7 +18,7 @@ function Experience() {
           <p>Cairo, Egypt · On-site</p>
         </div>
         <div className="flex items-center">
-          <Image src={Linkedin} className="w-4 h-4 mr-1" />
+          <Image src={Linkedin} className="w-4 h-4 mr-1" priority />
           <span>helped me get this job</span>
         </div>
       </Card>
