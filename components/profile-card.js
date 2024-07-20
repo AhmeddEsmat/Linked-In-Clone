@@ -17,7 +17,7 @@ function ProfileCard() {
         className="w-full relative xl:static rounded-t-lg"
         priority
       />
-      <div className="absolute -translate-x-[95%] translate-y-[57%] left-[22%]">
+      <div className="absolute -translate-x-[95%] translate-y-[57%] left-[27%] sm:left-[22%]">
         <Image
           src={Profile}
           alt="Profile Photo"
@@ -46,11 +46,16 @@ function ProfileCard() {
         </div>
         <div className="hidden sm:inline text-[0.9rem] [&>*]:hover:cursor-pointer font-medium mr-16 [&>*]:py-2">
           <div className="flex items-center">
-            <Image src={Thndr} alt="Thndr Logo" className="w-10 pr-2" priority/>
+            <Image
+              src={Thndr}
+              alt="Thndr Logo"
+              className="w-10 pr-2"
+              priority
+            />
             <p>Thndr</p>
           </div>
           <div className="flex">
-            <Image src={Uni} alt="Uni Logo" className="w-10 pr-2" priority/>
+            <Image src={Uni} alt="Uni Logo" className="w-10 pr-2" priority />
             <p>Ain Shams University</p>
           </div>
         </div>

@@ -10,7 +10,7 @@ import SimilarProfile from "./similar-profile";
 
 function MainPage() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-4 mt-5">
+    <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-4 mt-2.5 sm:mt-5">
       <section>
         <ProfileCard />
         <Activity />
