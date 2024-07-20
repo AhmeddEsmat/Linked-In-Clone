@@ -50,7 +50,7 @@ function ProfileCard() {
             <p>Thndr</p>
           </div>
           <div className="flex">
-            <Image src={Uni} alt="Thndr Logo" className="w-10 pr-2" priority/>
+            <Image src={Uni} alt="Uni Logo" className="w-10 pr-2" priority/>
             <p>Ain Shams University</p>
           </div>
         </div>

@@ -27,7 +27,7 @@ function SimilarProfile() {
     <div className="bg-white w-full md:w-[300px] mt-2 mb-10 p-5 rounded-lg shadow-sm">
       <h2 className="text-base font-semibold mb-4">Other similar profiles</h2>
       {profiles.map((profile, index) => (
-        <SimilarProfileCard profile={profile} index={index} />
+        <SimilarProfileCard profile={profile} key={index} />
       ))}
       <button className="w-full h-full text-base font-medium rounded-lg hover:bg-[#dedede] hover:bg-opacity-35">
         Show all people

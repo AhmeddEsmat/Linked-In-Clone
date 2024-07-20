@@ -39,7 +39,7 @@ function Navbar() {
         <NavbarIcon icon={faCommentDots} text="Messaging" />
         <NavbarIcon icon={faBell} text="Notifications" />
         <div className="hidden sm:flex flex-col justify-center items-center align-middle pr-1.5 md:pr-5 lg:pr-10">
-          <Image src={Profile} className="w-6 rounded-full" />
+          <Image src={Profile} alt="profile" className="w-6 rounded-full" />
           <div className="flex flex-row">
             <p>Me</p>
             <FontAwesomeIcon icon={faCaretDown} className="h-4 pl-1" />
