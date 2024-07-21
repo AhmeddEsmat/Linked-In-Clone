@@ -22,7 +22,7 @@ function Experience() {
           <span>helped me get this job</span>
         </div>
       </Card>
-      <hr my-4 />
+      <hr className="my-4" />
       <Card image={Nti} title="Ethical Hacking Trainee">
         <p>National Telecommunication Institute - المعهد القومي للاتصالات</p>
         <div className="text-gray-500">
@@ -30,7 +30,7 @@ function Experience() {
           <p>Cairo, Egypt</p>
         </div>
       </Card>
-      <hr my-4 />
+      <hr className="my-4" />
       <Card image={We} title="Cloud Computing Trainee">
         <p>Telecom Egypt</p>
         <div className="text-gray-500">
@@ -38,7 +38,7 @@ function Experience() {
           <p>Cairo, Egypt · On-site</p>
         </div>
       </Card>
-      <hr my-4 />
+      <hr className="my-4" />
       <Card image={Sprints} title="Front End Developer Trainee">
         <p>Sprints</p>
         <div className="text-gray-500">
