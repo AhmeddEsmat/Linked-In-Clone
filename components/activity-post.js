@@ -13,11 +13,11 @@ function ActivityPost({ period, image, count,comment, children }) {
       <p className="text-xs text-gray-500">
         <span className="font-medium">Ahmed Esmat</span> posted this • {period}
       </p>
-      <div className="my-2 flex">
+      <div className="my-2 flex items-center">
         <Image
           src={image}
           alt="Post Image"
-          className="w-16 rounded-lg"
+          className="w-16 h-16 rounded-lg"
           priority
         />
         <p className="px-4">{children}</p>

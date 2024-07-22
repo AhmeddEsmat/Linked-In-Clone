@@ -17,7 +17,7 @@ function ProfileCard() {
         className="w-full relative xl:static rounded-t-lg"
         priority
       />
-      <div className="absolute -translate-x-[95%] translate-y-[57%] left-[27%] sm:left-[22%]">
+      <div className="absolute -translate-x-[95%] translate-y-[57%] left-[27%] sm:left-[22%] lg:left-[20%] lg:translate-y-[75%] largerthanlg:left-[18%] xl:left-[28%] xl:translate-y-[57%] 2xl:left-[22%]">
         <Image
           src={Profile}
           alt="Profile Photo"
@@ -25,7 +25,7 @@ function ProfileCard() {
           priority
         />
       </div>
-      <div className="pl-8 mt-14 md:mt-[5.2rem] lg:mt-14 flex justify-between">
+      <div className="pl-8 mt-14 md:mt-[5.2rem] lg:mt-14 xl:mt-[5.5rem] 2xl:mt-14 flex justify-between">
         <div>
           <h2 className="text-2xl font-semibold">Ahmed Esmat</h2>
           <h3 className="text-[1.075rem]">
